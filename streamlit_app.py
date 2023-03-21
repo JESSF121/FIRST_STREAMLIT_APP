@@ -32,7 +32,7 @@ def get_fruityvice_data(this_fruit_choice):
     return fruityvice_normalized
 
 #New section to display fruityvice api response
-streamlit.header(FruityVice Fruit Advice!')
+streamlit.header('FruityVice Fruit Advice!')
                  
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
